@@ -15,4 +15,4 @@ RUN  rs="https://mirrors.ustc.edu.cn/alpine/v3.7"   && \
      echo "$rs/community/"  >> $rf                  && \
      apk update                                     && \
      apk upgrade                                    && \
-     apk add curl acl
+     apk add curl
